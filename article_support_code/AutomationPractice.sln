@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.Core", "AutomationPractice.Core\AutomationPractice.Core.csproj", "{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.UiTests", "AutomationPractice.UiTests\AutomationPractice.UiTests.csproj", "{73FE0CD0-8708-41E5-B082-7A64D5166898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.Common", "AutomationPractice.Common\AutomationPractice.Common.csproj", "{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FE0CD0-8708-41E5-B082-7A64D5166898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FE0CD0-8708-41E5-B082-7A64D5166898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FE0CD0-8708-41E5-B082-7A64D5166898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FE0CD0-8708-41E5-B082-7A64D5166898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

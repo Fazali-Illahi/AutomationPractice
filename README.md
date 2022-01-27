@@ -1,2 +1,2 @@
 # AutomationPractice
-Source code for articles
+Supporting source code for articles

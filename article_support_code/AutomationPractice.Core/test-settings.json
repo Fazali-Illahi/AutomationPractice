@@ -1,10 +1,10 @@
 ﻿{
   "TestSessionSettings": {
     "Browser": "firefox",
-    "DriverPath": "C:\\Projects\\WebDrivers",
+    "DriverPath": "C:\\WebDrivers",
     "DefaultTimeoutSeconds": 20,
     "Headless": false,
-    "ApplicationUrl": "http://practice.automationtesting.in/",
+    "ApplicationUrl": "http://practice.automationtesting.in",
     "UserName": "",
     "Password": ""
   }

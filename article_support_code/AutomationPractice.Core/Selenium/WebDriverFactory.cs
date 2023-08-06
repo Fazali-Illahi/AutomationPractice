@@ -1,7 +1,6 @@
 ﻿using AutomationPractice.Common;
 using AutomationPractice.Core.DI;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using OpenQA.Selenium;
 
 namespace AutomationPractice.Core.Selenium;

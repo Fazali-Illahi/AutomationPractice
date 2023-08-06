@@ -1,10 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.Core", "AutomationPractice.Core\AutomationPractice.Core.csproj", "{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomationPractice.Core", "AutomationPractice.Core\AutomationPractice.Core.csproj", "{157F4BAD-A1B0-4FC3-A945-D8A3D3543942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.UiTests", "AutomationPractice.UiTests\AutomationPractice.UiTests.csproj", "{73FE0CD0-8708-41E5-B082-7A64D5166898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomationPractice.UiTests", "AutomationPractice.UiTests\AutomationPractice.UiTests.csproj", "{73FE0CD0-8708-41E5-B082-7A64D5166898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationPractice.Common", "AutomationPractice.Common\AutomationPractice.Common.csproj", "{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomationPractice.Common", "AutomationPractice.Common\AutomationPractice.Common.csproj", "{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{374A5626-F711-48C6-BA10-F08FB075E436}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +33,11 @@ Global
 		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1CD9AF-4B37-43B0-98DC-E8599ED43124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {462D356A-FED6-49DD-9F1D-49A77ED3CA7F}
 	EndGlobalSection
 EndGlobal

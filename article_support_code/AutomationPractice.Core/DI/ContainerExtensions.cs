@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using AutomationPractice.Common;
 using AutomationPractice.Core.DI.Containers;
+using AutomationPractice.Core.PageObjects;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -24,6 +25,16 @@ public static class ContainerExtensions
                 c => c.Length == 1 && c[0].GetParameters().Length < 1,
                 $"{container.GetFriendlyTypeName()} must only have a default constructor.");
             (Activator.CreateInstance(container) as IServiceContainer)!.Register(collection);
+        }
+        return collection;
+    }
+    
+    public static IServiceCollection RegisterPages(this IServiceCollection collection)
+    {
+        var type = typeof(UiPageBase<>);
+        foreach (var page in Assembly.GetAssembly(type)!.GetTypes().Where(t=>t.Namespace!.StartsWith("AutomationPractice.Core.PageObjects") && t.Name.EndsWith("Page")))
+        {
+            collection.AddTransient(page);
         }
         return collection;
     }

@@ -1,5 +1,4 @@
 ﻿using AutomationPractice.Common;
-using Microsoft.Extensions.Options;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 

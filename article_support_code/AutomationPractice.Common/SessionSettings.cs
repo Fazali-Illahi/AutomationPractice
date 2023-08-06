@@ -10,7 +10,8 @@ public class SessionSettings
     public bool Headless { get; set; }
     public string DownloadDirectory { get; set; } = string.Empty;
     public uint DefaultTimeoutSeconds { get; set; }
-    public string UserName { get; set; }
-    public string Password { get; set; }
-    public string ApplicationUrl { get; set; }
+    public string? UserName { get; set; }
+    public string? Password { get; set; }
+    public string? ApplicationUrl { get; set; }
+    public string? StoragePath { get; set; }
 }
